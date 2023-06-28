@@ -10,7 +10,8 @@ print(word1.similarity(word2))
 print(word3.similarity(word2))
 print(word3.similarity(word1))
 
-# the results are printed as integers or %, the similarity makes sense based on value
+# the results are printed as floating point number between 0 & 1, 
+# the similarity makes sense based on value
 
 # vectors
 

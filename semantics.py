@@ -1,4 +1,4 @@
-import spacy 
+import spacy
 
 nlp = spacy.load('en_core_web_md')
 
@@ -12,6 +12,19 @@ print(word3.similarity(word1))
 
 # the results are printed as floating point number between 0 & 1, 
 # the similarity makes sense based on value
+
+nlp1 = spacy.load('en_core_web_sm')
+
+word1 = nlp1("cat")
+word2 = nlp1("monkey")
+word3 = nlp1("banana")
+
+print(word1.similarity(word2))
+print(word3.similarity(word2))
+print(word3.similarity(word1))
+
+
+
 
 # vectors
 

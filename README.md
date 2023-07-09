@@ -10,7 +10,7 @@
 ##### and a list of other sentences. It uses the loaded model to
 ##### calculate the similarity and prints the sentences along with
 #####  their respective similarity scores.
-##### Code description 1. 2. 3. 
+
 ###### IDE used = Virtual Studio, OP = Windows 11, Language = Python
 ###### 3.1 Clone repository with command below. Must have Git & Github installed.
 ###### git clone https://github.com/CrypticDG/NLPsemantic

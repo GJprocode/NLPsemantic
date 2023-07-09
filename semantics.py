@@ -1,4 +1,4 @@
-# This line imports the spaCy library, which provides natural language 
+# This line imports the spacy library, which provides natural language 
 # processing capabilities.
 # if spacy below is installed din your virtual environment with all modules
 # and still give the error import "spacy" could not be resolved,

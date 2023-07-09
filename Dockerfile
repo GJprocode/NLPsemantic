@@ -1,4 +1,4 @@
-# base image to use for building the Docker image. The pypy image is 
+# base image is use for building the Docker image. The pypy image is 
 # a pre-built image that provides a Python interpreter with a 
 # focus on speed and memory efficiency.
 FROM pypy:latest
